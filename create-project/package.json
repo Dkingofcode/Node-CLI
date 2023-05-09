@@ -1,12 +1,20 @@
 {
   "name": "create-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A cli to bootstrap my projects",
   "main": "index.js",
+   "bin": {
+      "NODE-CLI/create-project": "bin/create-project",
+      "create-project": "bin/create-project"
+   },
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
 }
